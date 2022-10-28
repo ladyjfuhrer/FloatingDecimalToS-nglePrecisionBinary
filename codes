@@ -69,16 +69,16 @@ int main()
         printf ("donusturmek istediginiz sayiyi giriniz." );
         scanf("%f", &var.f);
         printf ("%d", var.field2.sign);
-        binary(var.field2.exponent,8);
+        binary(var.field2.exponent,11);
         printf(" ");
-        binary(var.field2.mantissa,23);
+        binary(var.field2.mantissa,52);
         printf("\n");
     }
     
-    
-    
-    
-    
+    else
+    {
+    printf("tekrar giriniz...");
+    }
     
     
     
